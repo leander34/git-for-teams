@@ -1,2 +1,3 @@
 git checkout -> Serve para mudar de branch
 git checkout -b <nome da branch> -> Serve para criar uma nova branch
+git log -> mostrar histórico de commites
