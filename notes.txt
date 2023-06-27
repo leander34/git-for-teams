@@ -2,3 +2,7 @@ git checkout -> Serve para mudar de branch
 git checkout -b <nome da branch> -> Serve para criar uma nova branch
 git log -> mostrar histórico de commites
 git branch -D <nome da branch> -> Serve para apagar uma branch 
+git push origin main --delete <nome da branch> -> Deletar branch do github
+git branch -a -> Listar todas as branchs
+git fetch -> Atualizar as branchs que estão no github mas não estão na sua maquina (pushar as branch que voce não tem)
+git fetch -p -> Avisar sua maquina da branchs que já não existem mais no github (foram deletadas)
